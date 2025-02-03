@@ -1,0 +1,19 @@
+#trending {
+  h1 {
+    color: #333333;
+    padding-left: 180px;
+  }
+
+  .inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3{
+      color: #f84464;
+    }
+    h4{
+        color: #333333;
+    }
+  }
+}

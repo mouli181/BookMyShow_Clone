@@ -1,0 +1,34 @@
+#movieCard {
+  background-color: transparent;
+  h1 {
+    color: #333333;
+    padding-left: 180px;
+    padding-bottom: 0;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px 180px;
+
+    .card {
+      overflow: hidden;
+      height: 70vh;
+      width: 14vw;
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+      h2 {
+        color: #222222;
+        margin: 5px 0;
+      }
+      h3 {
+        color: #666666;
+        font-weight: 500;
+      }
+    }
+  }
+}

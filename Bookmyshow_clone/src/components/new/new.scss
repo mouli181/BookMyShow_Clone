@@ -1,0 +1,58 @@
+#modern {
+  .center {
+    display: flex;
+    justify-content: start;
+    height: 600px;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 41%,
+        rgba(255, 255, 255, 0) 72%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/the-greatest-of-all-time-et00401439-1725014428.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    .pic {
+      padding: 40px 100px;
+    //   padding-left: 200px;
+      img {
+        height: 450px;
+        width: 330px;
+      }
+    //   p {
+    //     color: #ffffff;
+        
+    //     padding: 0px 120px;
+    //     margin: 0 120px;
+    //     border:none;
+    //     background-color: red;
+    //   }
+    }
+
+.words{
+    // padding-left: 32px;
+    padding: 100px 0px;
+    h1 {
+        color: #ffffff;
+        font-size: 50px;
+      }
+}
+   
+  }
+
+  .center2 {
+    padding: 30px 200px;
+
+    p {
+      font-size: 20px;
+    }
+
+    hr {
+      margin-top: 50px;
+    }
+  }
+}

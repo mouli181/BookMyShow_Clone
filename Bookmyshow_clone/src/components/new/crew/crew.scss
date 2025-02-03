@@ -1,0 +1,30 @@
+#crew{
+    padding-left: 30px;
+  padding-right: 400px;
+
+    .pictures{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+
+        .picture{
+            overflow: hidden;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+          }
+          h2 {
+            color: #000000;
+            margin: 5px 0;
+            font-weight: 400;
+          }
+
+          h3 {
+            color: #666666;
+            font-weight: 500;
+          }
+    }
+}
